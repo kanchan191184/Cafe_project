@@ -1,0 +1,9 @@
+@use "./scss/colors" as *;
+@use "./scss/mixins" as *;
+@use "./scss/typography" as *;
+@import "./scss/sections/contact.scss";
+@import "./scss/sections/footer.scss";
+@import "./scss/sections/review.scss";
+@import "./scss/sections/header.scss";
+@import "./scss/sections/menu.scss";
+@import "./scss/sections/navbar.scss";

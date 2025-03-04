@@ -1,0 +1,20 @@
+// Footer
+footer {
+  .footer-content {
+    @include flex-center;
+    justify-content: space-between;
+    padding: 0.5em 2em;
+    background-color: $secondary-brand-color-light;
+    color: $basic-white;
+
+    p {
+      font-size: 1.5em;
+    }
+
+    a {
+      color: $basic-white;
+      text-decoration: none;
+      font-size: 3em;
+    }
+  }
+}

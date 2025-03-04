@@ -1,0 +1,44 @@
+// header content
+header {
+  display: flex;
+  margin-top: 1em;
+
+  .left-section {
+    flex: 1;
+    background-color: $secondary-brand-color-dark;
+    color: $basic-white;
+    display: flex;
+    padding-left: 3.5em;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      font-family: $font-family-secondary;
+      font-size: 3em;
+      margin-bottom: 0px;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+
+    a {
+      width: fit-content;
+      color: $basic-white;
+      text-decoration: none;
+      font-size: 2rem;
+      font-weight: bold;
+      border: 3px solid $basic-white;
+      padding: 0.3em 0.7em;
+    }
+  }
+
+  .right-section {
+    flex: 1;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

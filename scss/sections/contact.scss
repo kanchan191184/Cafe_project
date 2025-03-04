@@ -1,0 +1,83 @@
+// Contact section
+.left-section-contact {
+  flex: 1;
+  background-color: $secondary-brand-color-dark;
+  color: $basic-white;
+  display: flex;
+  padding-left: 3.5em;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font-family: $font-family-secondary;
+    font-size: 2.5em;
+  }
+}
+
+.right-section-contact {
+  flex: 1;
+
+  img {
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  background-color: $secondary-brand-color-dark;
+  padding: 2em;
+
+  h1 {
+    font-family: $font-family-secondary;
+    font-size: 2.5rem;
+    color: $primary-brand-color-dark;
+  }
+
+  .form-group {
+    width: 100%;
+    margin-bottom: 1.5em;
+
+    label {
+      display: block;
+      font-family: $font-family-primary;
+      font-size: 1.2rem;
+      color: $basic-white;
+      margin-bottom: 0.5em;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.5em;
+      font-family: $font-family-primary;
+      font-size: 1rem;
+      border: 1px solid $primary-brand-color-light;
+    }
+
+    textarea {
+      height: 150px;
+      resize: vertical;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.75em;
+      font-family: $font-family-primary;
+      font-size: 1.2rem;
+      color: $basic-white;
+      background-color: $primary-brand-color-dark;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: $primary-brand-color-light;
+      }
+    }
+  }
+}

@@ -1,0 +1,276 @@
+.left-section-contact {
+  flex: 1;
+  background-color: #689572;
+  color: #ffffff;
+  display: flex;
+  padding-left: 3.5em;
+  flex-direction: column;
+  justify-content: center;
+}
+.left-section-contact h1 {
+  font-family: "Rammetto One", sans-serif;
+  font-size: 2.5em;
+}
+
+.right-section-contact {
+  flex: 1;
+}
+.right-section-contact img {
+  max-width: 100%;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  background-color: #689572;
+  padding: 2em;
+}
+form h1 {
+  font-family: "Rammetto One", sans-serif;
+  font-size: 2.5rem;
+  color: #faa196;
+}
+form .form-group {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+form .form-group label {
+  display: block;
+  font-family: "open sans", sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+form .form-group input,
+form .form-group select,
+form .form-group textarea {
+  width: 100%;
+  padding: 0.5em;
+  font-family: "open sans", sans-serif;
+  font-size: 1rem;
+  border: 1px solid #ebc9c4;
+}
+form .form-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+form .form-group button {
+  width: 100%;
+  padding: 0.75em;
+  font-family: "open sans", sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #faa196;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+form .form-group button:hover {
+  background-color: #ebc9c4;
+}
+
+footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 2em;
+  background-color: #82a289;
+  color: #ffffff;
+}
+footer .footer-content p {
+  font-size: 1.5em;
+}
+footer .footer-content a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+.reviews-section {
+  background-color: #faa196;
+  padding-bottom: 3em;
+}
+.reviews-section h2 {
+  color: #ffffff;
+  font-family: "Rammetto One", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 1em;
+}
+.reviews-section .reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+.reviews-section .reviews-container .review-card {
+  color: #404040;
+  padding: 1rem;
+  border: 3px solid #ffffff;
+  max-width: 38%;
+}
+.reviews-section .reviews-container .review-card p {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+.reviews-section .reviews-container .review-card p .fa-quote-left {
+  padding: 0 0.5em;
+}
+.reviews-section .reviews-container .review-card p .fa-quote-right {
+  padding-left: 3em;
+}
+.reviews-section .reviews-container .review-card .review-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews-section .reviews-container .review-card .review-footer span {
+  font-size: 1.3em;
+}
+
+header {
+  display: flex;
+  margin-top: 1em;
+}
+header .left-section {
+  flex: 1;
+  background-color: #689572;
+  color: #ffffff;
+  display: flex;
+  padding-left: 3.5em;
+  flex-direction: column;
+  justify-content: center;
+}
+header .left-section h1 {
+  font-family: "Rammetto One", sans-serif;
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+header .left-section p {
+  font-size: 2rem;
+}
+header .left-section a {
+  width: fit-content;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 3px solid #ffffff;
+  padding: 0.3em 0.7em;
+}
+header .right-section {
+  flex: 1;
+}
+header .right-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-section {
+  padding: 0.5em 3em;
+}
+.menu-section h2 {
+  font-size: 3.5em;
+  text-align: center;
+  margin: 1em 0em;
+  color: #faa196;
+  font-family: "Rammetto One", sans-serif;
+}
+.menu-section details {
+  margin-bottom: 1.5em;
+}
+.menu-section details summary {
+  width: 98%;
+  padding: 0.5em;
+  font-size: 1.5em;
+  font-family: "open sans", sans-serif;
+  background-color: #ebc9c4;
+  color: #404040;
+  font-weight: 900;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+.menu-section details .menu-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.menu-section details .menu-content .menu-card {
+  background-color: #ebc9c4;
+  padding: 1.5em;
+  text-align: center;
+  max-width: 28%;
+}
+.menu-section details .menu-content .menu-card img {
+  max-width: 100%;
+  height: auto;
+}
+.menu-section details .menu-content .menu-card p {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-weight: 900;
+  color: #404040;
+}
+.menu-section details .menu-content .menu-card .more-info {
+  color: #404040;
+}
+.menu-section details .menu-content .menu-card .more-info i {
+  color: #689572;
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+.menu-section details .menu-content .menu-card .more-info span {
+  padding: 0.5em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  margin-left: 3em;
+}
+nav ul li a {
+  color: #404040;
+  text-decoration: none;
+  font-family: "open sans", sans-serif;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+nav ul .mug-icon {
+  color: #faa196;
+  font-size: 3rem;
+  margin-right: auto;
+}
+nav ul .nav-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+nav ul .nav-links li {
+  margin-left: 5em;
+}
+
+/*# sourceMappingURL=style.css.map */
