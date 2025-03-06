@@ -1,0 +1,23 @@
+.about-content {
+  padding: 2rem;
+  background-color: $primary-brand-color-dark;
+  margin: 2em auto;
+  max-width: 80%;
+  margin-bottom: 0px;
+
+  h2 {
+    color: $basic-white;
+    font-family: $font-family-secondary;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  p {
+    color: $basic-black;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+}

@@ -4,13 +4,9 @@ header {
   margin-top: 1em;
 
   .left-section {
-    flex: 1;
+    @include header-left-section-common-style;
     background-color: $secondary-brand-color-dark;
     color: $basic-white;
-    display: flex;
-    padding-left: 3.5em;
-    flex-direction: column;
-    justify-content: center;
 
     h1 {
       font-family: $font-family-secondary;
@@ -34,11 +30,6 @@ header {
   }
 
   .right-section {
-    flex: 1;
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
+    @include header-right-image-section;
   }
 }
