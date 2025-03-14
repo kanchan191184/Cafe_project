@@ -2,7 +2,8 @@
 nav {
   @include flex-center;
   justify-content: space-between;
-  padding-right: 2rem;
+  //padding-right: 2rem;
+  padding: 0 5%;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -17,7 +18,7 @@ nav {
 
     li {
       @include flex-center;
-      margin-left: 3em;
+      //margin-left: 3em;
 
       a {
         color: $basic-black;
@@ -26,12 +27,12 @@ nav {
         font-weight: bold;
         padding-top: 1rem;
       }
-    }
 
-    .mug-icon {
-      color: $primary-brand-color-dark;
-      font-size: 3rem;
-      margin-right: auto;
+      .mug-icon {
+        color: $primary-brand-color-dark;
+        font-size: 3rem;
+        margin-right: auto;
+      }
     }
 
     .nav-links {

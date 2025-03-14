@@ -2,11 +2,13 @@
 header {
   display: flex;
   margin-top: 1em;
+  width: 100%;
 
   .left-section {
     @include header-left-section-common-style;
     background-color: $secondary-brand-color-dark;
     color: $basic-white;
+    width: 50%;
 
     h1 {
       font-family: $font-family-secondary;
@@ -15,6 +17,7 @@ header {
     }
 
     p {
+      font-family: $font-family-primary;
       font-size: 2rem;
     }
 

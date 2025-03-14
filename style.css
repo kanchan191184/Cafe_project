@@ -81,6 +81,7 @@ footer .footer-content {
   color: #ffffff;
 }
 footer .footer-content p {
+  font-family: "open sans", sans-serif;
   font-size: 1.5em;
 }
 footer .footer-content a {
@@ -113,8 +114,9 @@ footer .footer-content a {
   max-width: 38%;
 }
 .reviews-section .reviews-container .review-card p {
+  font-family: "open sans", sans-serif;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
 }
 .reviews-section .reviews-container .review-card p .fa-quote-left {
@@ -134,6 +136,7 @@ footer .footer-content a {
 header {
   display: flex;
   margin-top: 1em;
+  width: 100%;
 }
 header .left-section {
   display: flex;
@@ -143,6 +146,7 @@ header .left-section {
   padding-left: 3.5em;
   background-color: #689572;
   color: #ffffff;
+  width: 50%;
 }
 header .left-section h1 {
   font-family: "Rammetto One", sans-serif;
@@ -150,6 +154,7 @@ header .left-section h1 {
   margin-bottom: 0px;
 }
 header .left-section p {
+  font-family: "open sans", sans-serif;
   font-size: 2rem;
 }
 header .left-section a {
@@ -197,6 +202,7 @@ header .right-section img {
 .menu-section details .menu-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -233,7 +239,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 2rem;
+  padding: 0 5%;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -250,7 +256,6 @@ nav ul {
 nav ul li {
   display: flex;
   align-items: center;
-  margin-left: 3em;
 }
 nav ul li a {
   color: #404040;
@@ -259,7 +264,7 @@ nav ul li a {
   font-weight: bold;
   padding-top: 1rem;
 }
-nav ul .mug-icon {
+nav ul li .mug-icon {
   color: #faa196;
   font-size: 3rem;
   margin-right: auto;
@@ -288,6 +293,7 @@ nav ul .nav-links li {
   text-align: center;
 }
 .about-content p {
+  font-family: "open sans", sans-serif;
   color: #404040;
   font-weight: bold;
   font-size: 1.5em;
